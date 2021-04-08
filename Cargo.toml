@@ -1,0 +1,15 @@
+[package]
+name = "kd3005p-rs"
+version = "0.1.0"
+authors = ["Tobias Klees <social@klunz.com>"]
+edition = "2018"
+
+license = "MIT OR Apache-2.0"#
+description = "Small GUI tool to control a Korad KD3005p laboratory power supply over its serial interface"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+druid = "0.7"
+serialport = "4.0.0"
